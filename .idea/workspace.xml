@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d871bc1-06c6-4cdf-a85c-09f51099f3d9" name="Changes" comment="" />
+    <list default="true" id="2d871bc1-06c6-4cdf-a85c-09f51099f3d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/server/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/server/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/song/SongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/song/impl/DefaultSongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/server/user/impl/DefaultUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/model/Song.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/model/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restservice/src/main/java/server/controller/SongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restservice/src/main/java/server/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restservice/src/main/java/server/start/StartServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restservice/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restservice/src/main/resources/model/Song.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restservice/src/main/resources/model/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +46,81 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2chAKzNUy4gRExSN3VtxbMPk1il" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "16",
+    "last_opened_file_path": "C:/Users/ghita/Desktop/PROIECT_MFPC/server/restservice/src/main/resources",
+    "spring.configuration.checksum": "1d802bba71d47e7c9b1e4990cde98fcb"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ghita\Desktop\PROIECT_MFPC\server\restservice\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StartServer">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="StartServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server.restservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="server.start.StartServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StartServer" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +129,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708553377960</updated>
+      <workItem from="1708553379829" duration="8945000" />
+      <workItem from="1708585347697" duration="2167000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

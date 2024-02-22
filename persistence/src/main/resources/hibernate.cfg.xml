@@ -16,8 +16,7 @@
         <property name="format_sql">true</property>
 
 
-        <mapping resource="model/Player.hbm.xml"/>
-        <mapping resource="model/Treasure.hbm.xml"/>
-        <mapping resource="model/Game.hbm.xml"/>
+        <mapping resource="model/User.hbm.xml"/>
+        <mapping resource="model/Song.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

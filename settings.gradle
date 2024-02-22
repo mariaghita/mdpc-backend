@@ -1,2 +1,5 @@
 rootProject.name = 'server'
+include 'model'
+include 'persistence'
+include 'restservice'
 

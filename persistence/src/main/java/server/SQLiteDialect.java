@@ -7,7 +7,7 @@
  *    May you share freely, never taking more than you give.
  *
  */
-package practic.persistence;
+package server;
 
 import org.hibernate.JDBCException;
 import org.hibernate.ScrollMode;

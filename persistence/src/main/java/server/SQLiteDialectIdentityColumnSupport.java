@@ -1,4 +1,4 @@
-package practic.persistence;
+package server;
 
 import org.hibernate.dialect.identity.IdentityColumnSupportImpl;
 
