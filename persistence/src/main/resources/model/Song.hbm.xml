@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="model">
+    <class name="server.Song"
+           table="games">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="title" column="title"/>
+        <property name="artist" column="artist"/>
+        <property name="releaseDate" column="releaseDate"/>
+        <property name="album" column="album"/>
+        <property name="genre" column="genre"/>
+    </class>
+</hibernate-mapping>
